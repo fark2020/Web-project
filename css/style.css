@@ -1,0 +1,38 @@
+body {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#mainNav ul {
+    margin: 0;
+    padding: 0;
+    align-content: right;
+}
+
+#mainNav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+#mainNav ul li a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+#mainNav ul li a:hover {
+    color: black;
+}
+
+input {
+	border: 1px solid grey;
+	width: 450px;
+	height: 40px;
+	border-radius: 50px;
+    font-size: 16px;
+    padding-left: 25px;
+}
